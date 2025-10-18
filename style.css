@@ -23,6 +23,26 @@ h1 {
     margin-inline-end: 0px;
     font-weight: bold;
     unicode-bidi: isolate;
+    font-size: 48px;
+}
+
+.p1 {
+    margin: 32px 0;
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(143, 143, 143);
+}
+
+.p2 {
+    margin-top: 64px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(169, 169, 169);
+}
+
+
+.email {
+    border: rgb(157, 157, 157);
 }
 
 /* NAV */
@@ -123,4 +143,11 @@ header .row {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+.customers {
+    width: 100%;
+    max-width: 85%;
+    opacity: 70%;
+    margin-top: 25pxgit;
 }
