@@ -40,6 +40,10 @@ h1 {
     color: rgb(169, 169, 169);
 }
 
+img {
+    width: 100%;
+}
+
 
 .email {
     border: rgb(157, 157, 157);
@@ -149,5 +153,154 @@ header .row {
     width: 100%;
     max-width: 85%;
     opacity: 70%;
-    margin-top: 25pxgit;
+    margin-top: 25px;
+}
+
+
+/* MAIN */
+
+.row__narrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(73, 77, 97);
+}
+
+h4 {
+    color: rgb(94, 35, 255);
+}
+
+p {
+    color: rgb(94, 94, 94);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.section__para {
+    margin-top: 24px;
+}
+
+.section__title {
+    margin-top: 24px;
+    font-size: 48px;
+}
+
+.features { 
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+
+.feature__image--wrapper {
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 500px;
+    padding: 20px;
+    
+    
+
+}
+
+
+
+.feature {
+   width: calc(100% /3);    
+}
+
+.feature__title {
+    font-size: 24px;
+}
+
+.row__narrow {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.feature__row {
+    display: flex;
+    align-items: flex-start;
+    padding: 32px 24px;
+}
+
+.feature__para {
+    font-size: 16px;
+    margin-top: 16px;
+    color: rgb(150, 150, 150);
+}
+
+.section__para {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.shield {
+    height: 26px;
+}
+
+.feature__text {
+    margin-left: 16px;
+}
+
+
+
+/* QUALITY */
+
+.section__quality {
+display: flex;
+}
+
+
+.quality__info {
+    width: 40%;
+    margin-right: 64px;
+}
+
+.quality__title {
+margin-top: 24px;
+}
+
+.quality__img--wrapper {
+    border-radius: 4px;
+    border: 1px solid rgb(229, 231, 235);
+    position: relative;
+    margin: 0 56px;
+    z-index: 2;
+    display: flex;
+    width: 50%;
+}
+
+.quality__img {
+z-index: 1;
+}
+
+.quality__btn--learn {
+    background-color: rgb(93, 0, 255);
+    color: white;
+    font-weight: bold;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 250px;
+}
+
+.quality__grid {
+    transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    fill: rgb(100, 21, 255);
+    --tw-text-opacity: 1;
+    color: rgb(100, 21, 255);
+    z-index: 0;
+    display: block;
+
 }

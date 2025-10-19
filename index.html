@@ -7,60 +7,217 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section id="landing">
-      <nav>
-        <div class="row nav__row">
-          <div class="nav__logo">
-            <img
-              class="logo"
-              src="./stuff/logo.2c489fc453a1783cbadacf914efa3df6.svg"
-              alt=""
-            />
-            <div class="logo__name">
-              <div class="treact">Treact</div>
+    <header>
+      <section id="Landing">
+        <nav>
+          <div class="row nav__row">
+            <div class="nav__logo">
+              <img
+                class="logo"
+                src="./stuff/logo.2c489fc453a1783cbadacf914efa3df6.svg"
+                alt=""
+              />
+              <div class="logo__name">
+                <div class="treact">Treact</div>
+              </div>
+            </div>
+            <div class="nav__links">
+              <a href="#" class="nav__link">About</a>
+              <a href="#" class="nav__link">Blog</a>
+              <a href="#" class="nav__link">Pricing</a>
+              <a href="#" class="nav__link">Contact Us</a>
+              <a href="#" class="nav__link login">Login</a>
+              <button class="btn__menu">Sign Up</button>
             </div>
           </div>
-          <div class="nav__links">
-            <a href="#" class="nav__link">About</a>
-            <a href="#" class="nav__link">Blog</a>
-            <a href="#" class="nav__link">Pricing</a>
-            <a href="#" class="nav__link">Contact Us</a>
-            <a href="#" class="nav__link login">Login</a>
-            <button class="btn__menu">Sign Up</button>
+        </nav>
+        <div class="container">
+          <div class="row">
+            <div class="header__description">
+              <h1>
+                Beautiful React Templates <span class="purple">for you.</span>
+              </h1>
+              <p class="p1">
+                Our templates are easy to setup, understand and customize. Fully
+                modular components with a variety of pages and components.
+              </p>
+              <form class="email" action="/subscribe" method="POST">
+                <label for="email"></label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+                <button type="submit">Get Started</button>
+              </form>
+              <p class="p2">OUR TRUSTED CUSTOMERS</p>
+              <img
+                class="customers"
+                src="./stuff/customers-logo-strip.680ac7c2e8ae28161d2c.png"
+                alt=""
+              />
+            </div>
+            <figure class="header__image--wrapper">
+              <img
+                src="./stuff/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
+                alt=""
+              />
+            </figure>
           </div>
         </div>
-      </nav>
-    </section>
-    <header>
-      <div class="container">
-        <div class="row">
-        <div class="header__description">
-          <h1>Beautiful React Templates <span class="purple">for you.</span></h1>
-          <p class="p1">Our templates are easy to setup, understand and customize.  Fully modular components with a variety of pages and components.</p>
-          <form class="email" action="/subscribe" method="POST">
-            <label for="email"></label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Enter your email"
-              required
-            />
-            <button type="submit">Get Started</button>
-          </form>
-          <p class="p2">
-            OUR TRUSTED CUSTOMERS
-          </p>
-          <img class="customers" src="./stuff/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="">
-        </div>
-        <figure class="header__image--wrapper">
-          <img
-            src="./stuff/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
-            alt=""
-          />
-        </figure>
-        </div>
-      </div>
+      </section>
     </header>
+    <main>
+      <section id="features">
+        <div class="container">
+          <div class="row__narrow">
+            <h4>FEATURES</h4>
+            <h1 class="section__title">
+              We Have Amazing <span class="purple">Service</span>
+            </h1>
+            <p class="section__para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem
+              ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+
+            <div class="features">
+              <div class="feature">
+                <div class="feature__row">
+                  <div class="feature__image--wrapper">
+                    <img
+                      class="shield"
+                      src="./stuff/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="feature__text">
+                    <h1 class="feature__title">Secure</h1>
+                    <p class="feature__para">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature__row">
+                  <div class="feature__image--wrapper">
+                    <img
+                      class="shield"
+                      src="./stuff/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="feature__text">
+                    <h1 class="feature__title">24/7 Support</h1>
+                    <p class="feature__para">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature__row">
+                  <div class="feature__image--wrapper">
+                    <img
+                      class="shield"
+                      src="./stuff/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="feature__text">
+                    <h1 class="feature__title">Customizable</h1>
+                    <p class="feature__para">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature__row">
+                  <div class="feature__image--wrapper">
+                    <img
+                      class="shield"
+                      src="./stuff/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="feature__text">
+                    <h1 class="feature__title">Reliable</h1>
+                    <p class="feature__para">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature__row">
+                  <div class="feature__image--wrapper">
+                    <img
+                      class="shield"
+                      src="./stuff/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="feature__text">
+                    <h1 class="feature__title">Fast</h1>
+                    <p class="feature__para">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature__row">
+                  <div class="feature__image--wrapper">
+                    <img
+                      class="shield"
+                      src="./stuff/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="feature__text">
+                    <h1 class="feature__title">Easy</h1>
+                    <p class="feature__para">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="quality">
+        <div class="container">
+          <div class="row">
+            <div class="section__quality">
+              <div class="quality__info">
+                <h4 class="quality__intro">QUALITY WORK</h4>
+                <h1 class="quality__title">
+                  Designed & Developed by
+                  <span class="purple">Professionals</span>
+                </h1>
+                <p class="quality__para">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                  vitae officiis ratione. Provident perspiciatis eaque eum iusto
+                  voluptate quam voluptatem sequi ipsam qui expedita, asperiores
+                  consequatur ex rem, quod non!
+                </p>
+                <button class="quality__btn--learn">Learn More</button>
+              </div>
+              <figure class="quality__img--wrapper">
+                <img class="quality__img"
+                  src="./stuff/hero-screenshot-1.40a097b525c2f8c9808e.png"
+                  alt=""
+                />
+                <svg viewBox="0 0 1280 1280" class="quality__grid"></svg>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
