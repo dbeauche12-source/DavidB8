@@ -50,7 +50,6 @@ h4 {
 p {
   color: rgb(94, 94, 94);
   display: block;
- 
   unicode-bidi: isolate;
 }
 
@@ -371,7 +370,11 @@ align-items: center;
   align-items: center;
 }
 
-
+.quality__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .quality__info {
   width: 50%;
@@ -1152,12 +1155,7 @@ color: rgb(208, 208, 208);
 
 
 
- (max-width: 680px) {
-    .body {
-        display: flex;
-        justify-content: center;
-    }
-}
+
 
 /* NAV MEDIA */
 
@@ -1245,20 +1243,33 @@ color: rgb(208, 208, 208);
 
 
 
-/* MEDIA FEATURES */
+/* FEATURES MEDIA */
 
 
 
 @media (max-width: 1024px) {
     .features {
-        max-width: 768px;
+       max-width: 768px;
+      }
+    }
+    
+@media (max-width: 768px) {
+    .features {
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
     }
 }
 
 @media (max-width: 768px) {
     .feature {
-        width: auto;
-        max-width: 384px;
+       width: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .feature {
+        width: calc(50%);
     }
 }
 
@@ -1276,22 +1287,19 @@ color: rgb(208, 208, 208);
     }
 }
 
-@media (max-width: 1024px) {
-    .feature {
-        width: calc(50%);
-    }
-}
+
+
+
+
+/* QUALITY */
 
 
 @media (max-width: 768px) {
-  .features {
-    justify-content: center;
-  }
-
+    .quality__row
+ {
+  flex-direction: column-reverse;
+    }
 }
-
-
-
 
 @media (max-width: 1024px) {
     .quality__info
